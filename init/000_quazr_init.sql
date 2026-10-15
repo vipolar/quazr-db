@@ -1,0 +1,8 @@
+BEGIN;
+
+\ir functions/quazr_common_forbid_value_overlap_between_columns.sql
+\ir functions/quazr_common_require_full_enum_type_set_in_column.sql
+\ir functions/quazr_common_require_full_integer_range_in_column.sql
+\ir functions/quazr_common_require_unique_enum_type_profiles.sql
+
+COMMIT;
